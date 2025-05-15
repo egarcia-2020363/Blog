@@ -1,0 +1,26 @@
+{
+  "name": "blogdeaprendizaje",
+  "version": "1.0.0",
+  "description": "Projects compilation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egarcia-2020363/Blog.git"
+  },
+  "keywords": [
+    "Project",
+    "Compilation",
+    "Blog",
+    "Posts",
+    "Comments"
+  ],
+  "author": "Enmanuel Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egarcia-2020363/Blog/issues"
+  },
+  "homepage": "https://github.com/egarcia-2020363/Blog#readme"
+}
