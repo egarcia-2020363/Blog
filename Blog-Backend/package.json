@@ -4,7 +4,8 @@
   "description": "Projects compilation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,16 @@
   "bugs": {
     "url": "https://github.com/egarcia-2020363/Blog/issues"
   },
-  "homepage": "https://github.com/egarcia-2020363/Blog#readme"
+  "homepage": "https://github.com/egarcia-2020363/Blog#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "mogoose": "^0.0.1-security",
+    "mongoose": "^8.14.3",
+    "morgan": "^1.10.0"
+  },
+  "type": "module"
 }
