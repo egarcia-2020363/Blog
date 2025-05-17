@@ -19,6 +19,10 @@ const postSchema = new Schema(
             type: Date, 
             required: [true, 'Activity publication date is required']
         },
+        link: {
+            type: String,
+            required: [true, 'Repository link is required']
+        }
     }
 );
 

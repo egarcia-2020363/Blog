@@ -2,13 +2,14 @@ import Post from './post.model.js';
 
 export const addPost = async (req, res) => {
   try {
-    const { title, content, course, date } = req.body;
+    const { title, content, course, date, link } = req.body;
 
     const newPost = new Post({
       title,
       content,
       course,
-      date
+      date,
+      link
     });
 
     await newPost.save();
