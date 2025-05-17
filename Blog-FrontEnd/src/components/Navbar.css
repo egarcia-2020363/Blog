@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #1b325f;
+  color: white;
+  padding: 15px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  height: 10vh;
+}
+
+.navbar h1{
+  font-size: 4em;
+}
+
+.navbar-logo {
+  height: 90%;
+  object-fit: contain;
+  margin-left: 1em;
+}

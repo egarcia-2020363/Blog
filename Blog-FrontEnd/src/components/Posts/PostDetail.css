@@ -1,0 +1,62 @@
+.post-container {
+  padding: 20px;
+}
+
+.post-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.post-container p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.post-container small {
+  color: gray;
+}
+
+.comments-section {
+  margin-top: 30px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.comment {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.comment strong {
+  font-weight: bold;
+}
+
+.comment small {
+  font-size: 12px;
+  color: #666;
+}
+
+.comment-form {
+  margin-top: 20px;
+}
+
+.comment-form input,
+.comment-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.comment-form button {
+  padding: 8px 16px;
+  background-color: #3f3fd1;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background-color: #2d2db0;
+}

@@ -1,26 +1,15 @@
+import { PostDetail } from "./components/Posts/PostDetail";
 import { Posts } from "./components/Posts/Posts";
-import { AuthPage } from "./pages/Auth/AuthPage";
-import { FeedPage } from "./pages/Feed/FeedPage";
-import { NotFoundPage } from "./pages/NotFound/NotFoundPage";
+import { NotFoundPage } from "./pages/NotFoundPage";
 
 export const routes = [
     {
         path: '/',
-        element: <AuthPage />
+        element: <Posts />
     },
     {
-        path: '/feed',
-        element: <FeedPage />,
-        children: [
-            {
-                index: true,
-                element: <p>Bienvenido al feed, selecciona una opción</p>
-            },
-            {
-                path: 'posts',
-                element: <Posts />
-            }
-        ]
+        path: '/post/:id',
+        element: <PostDetail />
     },
     {
         path: '*',
