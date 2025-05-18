@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import './PostDetail.css';
+import { useParams, Link } from "react-router-dom";
+import "./PostDetail.css";
 
 export const PostDetail = () => {
   const { id } = useParams();
@@ -9,25 +9,24 @@ export const PostDetail = () => {
   const [newComment, setNewComment] = useState({ author: "", content: "" });
 
   const fetchPost = async () => {
-    const res = await fetch(`/api/posts/${id}`);
+    const res = await fetch(`http://localhost:3620/v1/post/getPost/${id}`);
     const data = await res.json();
     setPost(data.post);
   };
 
   const fetchComments = async () => {
-    const res = await fetch(`/api/comments/byPost/${id}`);
+    const res = await fetch(`http://localhost:3620/v1/comment/byPost/${id}`);
     const data = await res.json();
     setComments(data.comments || []);
   };
 
-  const handleCommentSubmit = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch(`/api/comments/add/${id}`, {
+    const res = await fetch(`http://localhost:3620/v1/comment/add/${id}`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newComment),
     });
-
     if (res.ok) {
       setNewComment({ author: "", content: "" });
       fetchComments();
@@ -42,14 +41,10 @@ export const PostDetail = () => {
   if (!post) return <p>Cargando publicación...</p>;
 
   return (
-    <div className="post-container">
-      <h2>{post.title}</h2>
-      <p><strong>Curso:</strong> {post.course}</p>
-      <p>{post.content}</p>
-      <p><small>Publicado el: {new Date(post.date).toLocaleDateString()}</small></p>
-
-      <div className="comments-section">
+    <div className="post-detail-layout">
+      <aside className="comments-panel">
         <h3>Comentarios</h3>
+        <div className="list">
         {comments.length === 0 ? (
           <p>No hay comentarios aún.</p>
         ) : (
@@ -57,12 +52,27 @@ export const PostDetail = () => {
             <div key={i} className="comment">
               <strong>{c.author}</strong>
               <p>{c.content}</p>
-              <small>{new Date(c.date).toLocaleString()}</small>
+              <small>{new Date(c.date).toLocaleDateString()}</small>
             </div>
           ))
         )}
+        </div>
+        <Link to={`/`}>Volver</Link>
+      </aside>
 
-        <form className="comment-form" onSubmit={handleCommentSubmit}>
+      <main className="post-main">
+        <div className="post-card">
+          <h2>{post.title}</h2>
+          <p><strong>{post.course}</strong></p>
+          <p>{post.content}</p>
+          <p><small>{new Date(post.date).toLocaleDateString()}</small></p>
+          <Link to={`${post.link}`}>Ir al proyecto</Link>
+        </div>
+      </main>
+
+      <aside className="comment-form">
+        <h3>Agregar comentario</h3>
+        <form onSubmit={handleSubmit}>
           <input
             type="text"
             placeholder="Tu nombre"
@@ -71,14 +81,16 @@ export const PostDetail = () => {
             required
           />
           <textarea
-            placeholder="Escribe un comentario"
+            placeholder="Escribe tu comentario"
             value={newComment.content}
             onChange={(e) => setNewComment({ ...newComment, content: e.target.value })}
             required
-          ></textarea>
-          <button type="submit">Comentar</button>
+          />
+          <button type="submit">Enviar</button>
         </form>
-      </div>
+      </aside>
+
+      
     </div>
   );
 };

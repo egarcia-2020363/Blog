@@ -10,9 +10,21 @@ export const AppLayout = ({ children, onSortChange }) => {
       <div className="main-content">
         <aside className="sidebar">
           <ul>
-            <li><strong>4° Grado</strong></li>
-            <li><strong>5° Grado</strong></li>
-            <li><strong>6° Grado</strong></li>
+            <li>
+                <a href="https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/EsZ9qwk30kRBiXY_zbPw1gMBYNDSZYFEPIp0Im8NUWBAhQ?e=YnYrSR" target="_blank">
+                <strong>4° Grado</strong>
+                </a>
+            </li>
+            <li>
+                <a href="https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/EpVTNz-kZBpEmv7-pNtZE9UBnbImMuZJMnBspESOyZhSVg?e=qbrwsJ" target="_blank">
+                <strong>5° Grado</strong>
+                </a>
+            </li>
+            <li>
+                <a href="https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/EhFBHipVD_VFi260W0M_XyUBqZoQdcSaIWI28G88xUTPmQ?e=YbJu6k" target="_blank">
+                <strong>6° Grado</strong>
+                </a>
+            </li>
           </ul>
           <div className="sort-filter">
             <label>Ordenar por:</label>
