@@ -1,0 +1,1132 @@
+{
+	"info": {
+		"_postman_id": "715dc5b6-d856-427b-9b12-0e230b848d08",
+		"name": "Blog",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37951917"
+	},
+	"item": [
+		{
+			"name": "Buscaminas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Buscaminas",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Desarrollo de un juego en consola. Realizado en Java SE",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2025-05-18",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/ErIdEN_j8zJLvo9b8oy2j4QBgaUX3bwXJrBgsRX1G5HRKA?e=lbdGD0",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Calculadora-cuarto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Calculadora básica",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Desarrollo de una calculadora en consola, operaciones básicas. Realizado en Java SE",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2023-07-12",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/ErIdEN_j8zJLvo9b8oy2j4QBgaUX3bwXJrBgsRX1G5HRKA?e=lbdGD0",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crud-Veterinaria",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Crud-Holis",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Gestión del sistema de datos de una Veterinaria, utilizando POO",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2023-08-12",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/EhQy6DxtQS1ElEyDLbXfxb4BMXVVmYUNi94pmdBUNJY-2w?e=GYjGcw",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Venta-Computadoras",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Proyecto - Cuarto",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Proyecto final de cuarto curso. Sistema de ventas de computadoras y desarrollo de ejercicios en Java.",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2023-10-5",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/EgnXJLaNEqVGjXSmiyas96gBOFJW-4VODChemrLpTbxYbA?e=oztBxk",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BaseDeDatos-Cuarto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Base de datos",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Proyecto de base de datos. Utilizando MySQL",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2023-9-14",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/EhGqaojahmNIgBWW-SulqtEBc22pHOxJHjTp7fBj8yNPjA?e=UJKuai",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CalculadoraGrafica",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Calculadora Gráfica",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Desarrollo de una calculadora gráfica con JavaFX.",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2024-02-27",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/EvGpJoUs5p1AqDRI1tR37JAB1dO5zG0jyxpKKGU_cFzc_A?e=AdaNjf",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "KinalSport",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "KinalSport",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Desarrollo de un sistema para una empresa deportiva. Trabajado con SpringBoot.",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2024-09-20",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/EnRHPyEO-kxCnFxVzhw-O48BAAOHTgvDGzlNf-cydv-Ulw?e=dpgQ6e",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "KinalStore",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "KinalStore",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Desarrollo de un sistema de compra ventas para empresas. Trabajado con JavaFX.",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2024-05-17",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/Eqfrc8ZcQGxHmOXw5BpYvfsB0uPQX8BibGZ9jnL3eCPRLQ?e=rkX68O",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NovaTec",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "NovaTec",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Desarrollo de un sistema de gestion de datos para una empresa. Proyecto trabajado en equipo, utilizando JavaEE y GitHub.",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2024-07-17",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/EsR79ORTHrFIv8wRSEQ9jU0B1vlKIXeehB7Tw4PkeX3g4w?e=8IrfwB",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PaginaWeb-Quinto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "PW-Instrumentos",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Página web sobre instrumentos musicales. Desarrollado con HTML y CSS",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2024-06-13",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/Eh49553y-BNMrjd96lDcWnoBTz-Uie4s1QZqwgxhtUjQtA?e=fpFwgl",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GestionCompras",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Compra-Venta-SQL",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Proyecto de base de datos. Gestión de compra y venta para una empresa, administración de datos. ",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2024-03-04",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/Erz5wxYXCaBDl8D4s3aWpWwBKuoHRm22rFk6LKB2QZ5e0Q?e=cxMMEZ",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ventas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Ventas JavaEE",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Proyecto de base de datos. Gestión de compra y venta para una empresa, administración de datos. Proyecto personal realizado con JavaEE",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2024-0-04",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/En2n46WXgqBGkR7i438YMBgBvja7Kk-qUNoo9N-NItTVAg?e=XjJWby",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Agenda WEB",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Agenda WEB",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Desarrollo de una agenda web capaz de organizar tareas y ordenar prioridades. HTML, CSS y JavaScript.",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "PRÁCTICA SUPERVISADA",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2025-01-26",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/EhBOCUqk169DmqKNI-OjTaYBt_ih9fbevgSp6F5h7ogU2w?e=dL8cEe",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GestorAlumnos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Gestor de Alumnos",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Desarrollo de un sistema gestor de alumnos, con roles de Alumno y profesor. NodeJS",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "PRÁCTICA SUPERVISADA",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2025-02-09",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/EhBOCUqk169DmqKNI-OjTaYBt_ih9fbevgSp6F5h7ogU2w?e=dL8cEe",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CommentGestor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Gestor de Comentarios",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Desarrollo de un sistema gestor de comentarios, publicaciones y usuarios. NodeJS",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "PRÁCTICA SUPERVISADA",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2025-02-23",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/EptBQyvK2hhKjO1XFSc46YIBoOkVWXXRU5U8j6esKeoREg?e=be8SY1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Infografia",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Infografía-WEB",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Infografía creativa sobre HTML, CSS y PreProcesadores",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "TECNOLOGÍA",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2025-01-26",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/EvVLXJj58K5BjWEt5buN5rgBPqMNtoA4dDOhWGwBKa0yVA?e=bMOK7q",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MapaConceptual",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Mapa Conceptual",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Mapa conceptual con más conceptos sobre desarrollo WEB",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "TECNOLOGÍA",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2025-02-02",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/EmQk92Tl6NJAv0tB80pTAmQBE2UF_E3AR2W304NO5RWAxQ?e=CN9yDu",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MapaMental",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "MapaMental",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Mapa mental con conceptos  y explicación sobre desarrollo WEB.",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "TECNOLOGÍA",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2025-02-13",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/Ep33hcObL-5Ig0L7hjxN9YUB9EOe0iNJwrGowti5PmWK-g?e=LNkpfg",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PaginaWeb",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Página WEB",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Desarrollo de una página web con diversos temas. Utilización de HTML, CSS y JavaScript.",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2025-01-26",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/ElG5eONfEzVLraG0zNX7GqwBQyJPZOzpuKXQyyi_AH43gQ?e=LNcJQm",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AdicionFuncionalidades",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Funcionalidades",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Adición de funcionalidades en el proyecto de AdoptionSystem. Sistema de adopción de mascotas.",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2025-02-09",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/EqgBIqJYwxxEu9dhfTqDEN0B_ZIRYNf-6i8tU4zlN0r7GQ?e=4Sd7mN",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "COPEREX",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "COPEREX",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Revisión del caso COPEREX. Generar reportes a partir de estadísticas y consultas. Desarrollado con NodeJS.",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2025-03-02",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/Es2ar05e68lAhFCIFBG-EgABve30CYFZKQO9rMboUtoRQg?e=O7hcdC",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ProductManager",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "ProductManager",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Desarrollo de un sistema de gestión de productos, Stock, precios etc. Trabajado con NodeJS.",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "TALLER",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2025-03-07",
+							"type": "text"
+						},
+						{
+							"key": "link",
+							"value": "https://cetkinal-my.sharepoint.com/:f:/g/personal/egarcia-2020363_kinal_edu_gt/ErGNCIe-83BOnwxn12FIXlsBotscobVixhW4Po7iMbdDXA?e=RJzOck",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3620/v1/post/addPost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3620",
+					"path": [
+						"v1",
+						"post",
+						"addPost"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
